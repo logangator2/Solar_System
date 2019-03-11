@@ -14,9 +14,9 @@ public class Oscillator : MonoBehaviour
     void Start()
     {
         timeCounter = 0;
-        speed = 0.5f;
-        width = 15;
-        depth = 15;
+        speed = 20.0f / gameObject.transform.position.x;
+        width = gameObject.transform.position.x;
+        depth = gameObject.transform.position.x;
     }
 
     // Update is called once per frame

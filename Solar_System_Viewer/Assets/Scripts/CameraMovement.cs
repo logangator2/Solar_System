@@ -5,7 +5,7 @@ using UnityEngine;
 public class CameraMovement : MonoBehaviour
 {
     // Some code from: https://answers.unity.com/questions/548794/how-to-move-a-camera-only-using-the-arrow-keys.html
-    private float speed = 10.0f;
+    private float speed = 15.0f;
 
     // Start is called before the first frame update
     void Start()
